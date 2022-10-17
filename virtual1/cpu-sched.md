@@ -66,3 +66,13 @@
 ## 9. No More Oracle
 - the OS usually knows very little about the length of each job
 - what is good for SJF, STCF, or RR?
+
+## HW
+
+4. when the shortest time job comes first, then the next shortest one, and so on
+
+5. each job needs to be of the same length, and arrives at the same time, while the quantum length of RR is set to that length
+
+6. it increases, of course
+
+7. if `1` seconds increases, the overal response time increases by `n(n-1)/2 = O(n^2)`
